@@ -81,3 +81,27 @@
   font-size: 15px !important;
   color: black;
 }
+
+.data-cronograma {
+  font-weight: bold;
+  font-size: 42px;
+}
+
+.lista-cronograma li {
+  list-style: none;
+}
+
+.lista-cronograma li:before {
+  /* For a round bullet */
+  content: '\2022';
+  /* For a square bullet */
+  /*content:'\25A0';*/
+  display: inline;
+  position: relative;
+  max-width: 0;
+  max-height: 0;
+  left: -10px;
+  top: 0;
+  color: rgba(62,165,255,1);
+  font-size: 20px;
+}
