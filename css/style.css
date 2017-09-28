@@ -1,3 +1,33 @@
+@media (min-width: 858px) {
+  html {
+      font-size: 12px;
+  }
+}
+
+@media (min-width: 780px) {
+  html {
+      font-size: 11px;
+  }
+}
+
+@media (min-width: 702px) {
+  html {
+      font-size: 10px;
+  }
+}
+
+@media (min-width: 724px) {
+  html {
+      font-size: 9px;
+  }
+}
+
+@media (max-width: 623px) {
+  html {
+      font-size: 8px;
+  }
+}
+
 .btn-primario {
   display: inline-block;
   -webkit-box-sizing: content-box;
@@ -6,8 +36,8 @@
   cursor: pointer;
   padding: 20px 80px;
   border: none;
-  -webkit-border-radius: 3px;
-  border-radius: 3px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
   font: normal 30px/normal "abel", Helvetica, sans-serif;
   color: rgba(255,255,255,0.9);
   -o-text-overflow: clip;
@@ -65,6 +95,10 @@
   font-size: 13px;
 }
 
+.palestrantes.espaco {
+  margin-top: 60px;
+}
+
 .palestrante1 h1 {
   color: #6d3f96;
 }
@@ -75,6 +109,14 @@
 
 .palestrante3 h1 {
   color: #fdc05d;
+}
+
+.palestrante4 h1 {
+  color: #22B115;
+}
+
+.nome-palestrante {
+  font-weight: bold;
 }
 
 .foto-palestrante {
@@ -88,6 +130,10 @@
 
 .foto-palestrante .foto.esquerda {
   margin-right: 20px;
+}
+
+.foto-palestrante .foto.direita {
+  margin-left: 20px;
 }
 
 .tema-palestra {

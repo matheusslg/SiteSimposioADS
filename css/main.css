@@ -268,7 +268,8 @@ a:hover, a:focus {
 }
 
 .logo img {
-	margin-top: 6px;
+  margin-top: 6px;
+  margin-left: 10px;
 }
 
 
@@ -393,6 +394,11 @@ hr.line {
 	color: #fdc05d;
 }
 
+.green {
+	border-color: #22B115;
+	color: #22B115;
+}
+
 .iphone {
     position: relative;
     height: 200px;
@@ -472,7 +478,7 @@ footer {
 }
 .pricing-table.active {
   box-shadow: 0px 0px 12px rgba(41,46,50,0.6); 
-  position: absolute;
+  /*position: absolute;*/
   margin: auto;
   z-index: 200;
   border-top-left-radius: 10px;
